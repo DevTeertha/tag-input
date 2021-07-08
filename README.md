@@ -5,4 +5,4 @@
 ![alt text](https://raw.githubusercontent.com/DevTeertha/tag-input/main/screenshots/2.PNG)
 
 # Ignore Duplicate Tags
-![alt text](https://raw.githubusercontent.com/DevTeertha/tag-input/main/screenshots/3.PNG)
+![alt text](https://raw.githubusercontent.com/DevTeertha/tag-input/main/screenshots/3.PNG)# tag-input
