@@ -1,5 +1,5 @@
 .container{
-    width: 450px;
+    width: 50%;
     margin: 0 auto;
 }
 .tag-header{
@@ -8,27 +8,15 @@
 .tag-header p{
     font-style: italic;
 }
-.tag-header h4, .tag-header p{
-    color: #747474;
-}
 .tagInput{
     text-align: left;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    border-radius: 2px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
-    padding: 1em;
-    background-color: #EBEBEB;
 }
-.tagInput:hover{
-    border-bottom: 2px solid rgb(0, 132, 255);
-}
+
 div.tagInput:focus-within{
-    border-bottom: 2px solid rgb(0, 132, 255);
+    border-bottom: 2px solid #059669;
 }
 .tagInput input{
     width: 100%;
@@ -44,18 +32,9 @@ div.tagInput:focus-within{
     margin: 8px 0 0 0;
 }
 .tagInput ul li{
-    margin: 0.5em 0.5em;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
-    background-color: white;
-    padding: 0.5em 0.9em;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
 }
 .tagInput ul li span{
     font-size: 1.2em;
@@ -73,14 +52,23 @@ div.tagInput:focus-within{
     padding: 0.5em;
     box-shadow: 1px 5px 10px grey;
 }
-.notFound{
-    color: grey;
-}
-.tagSuggestion .suggest-list{
-    font-size: 1.2em;
-    padding: 0.7em 0.3em;
-}
-.suggest-list:hover{
-    cursor: pointer;
-    background-color: #EBF6FF;
-}
+@media only screen and (max-width: 1200px) {
+    .container{
+        width: 60%;
+    }
+  }
+@media only screen and (max-width: 992px) {
+    .container{
+        width: 70%;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 80%;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+    }
+  }
