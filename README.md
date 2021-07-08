@@ -4,5 +4,8 @@
 # Auto Suggestion
 ![alt text](https://raw.githubusercontent.com/DevTeertha/tag-input/main/screenshots/2.PNG)
 
+# Tags
+![alt text](https://raw.githubusercontent.com/DevTeertha/tag-input/main/screenshots/3.PNG)
+
 # Ignore Duplicate Tags
-![alt text](https://raw.githubusercontent.com/DevTeertha/tag-input/main/screenshots/3.PNG)# tag-input
+![alt text](https://raw.githubusercontent.com/DevTeertha/tag-input/main/screenshots/4.PNG)
